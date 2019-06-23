@@ -1,0 +1,12 @@
+<h1 class="title">Users</h1>
+<ul class="list">
+  <li class="list__item" *ngFor="let user of stateSerice.currentUsers"
+      (click)="dispayUser(user)"
+  >{{user.first_name}} {{user.last_name}}
+  </li>
+</ul>
+<ul class="pagination">
+  <li class="pagination__item" *ngFor="let page of stateSerice.pages">
+    <button (click)="togglePage(page)">{{page}}</button>
+  </li>
+</ul>

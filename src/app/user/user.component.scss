@@ -1,0 +1,20 @@
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+
+  &__cell {
+    border: 1px solid black;
+    padding: 20px;
+    vertical-align: middle;
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+}

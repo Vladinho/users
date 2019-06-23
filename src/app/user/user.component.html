@@ -1,0 +1,26 @@
+<table class="table">
+  <caption class="table__title">User</caption>
+  <thead>
+    <tr>
+      <th class="table__cell">Key</th>
+      <th class="table__cell">Value</th>
+    </tr>
+  </thead>
+  <tr>
+    <th class="table__cell">First Name</th>
+    <td class="table__cell">{{user.first_name}}</td>
+  </tr>
+  <tr>
+    <th class="table__cell">Last Name</th>
+    <td class="table__cell">{{user.last_name}}</td>
+  </tr>
+  <tr>
+    <th class="table__cell">Email</th>
+    <td class="table__cell">{{user.email}}</td>
+  </tr>
+  <tr>
+    <th class="table__cell">Avatar</th>
+    <td class="table__cell"><img src="{{user.avatar}}"></td>
+  </tr>
+</table>
+<button (click)="back()">Back</button>
